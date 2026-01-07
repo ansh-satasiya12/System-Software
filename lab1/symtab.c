@@ -51,7 +51,7 @@ void insert(char *str){
 
 }
 
-void search(char *str){
+int search(char *str){
     int index = hash(str);
     int start = index;
 
