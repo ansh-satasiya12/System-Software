@@ -71,7 +71,7 @@ int search(char *str){
     return -1;
 }
 
-display(){
+void display(){
     printf("\n--- SYMBOL TABLE ---\n");
     printf("Index\tSymbol\n");
     printf("------------------\n");
